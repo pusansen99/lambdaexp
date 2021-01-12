@@ -1,5 +1,5 @@
 package com.deloitte.lambda;
-
+@FunctionalInterface
 interface Length {
     int getLength(String s);
 }

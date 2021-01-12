@@ -1,4 +1,5 @@
 package com.deloitte.lambda;
+@FunctionalInterface
 interface Hello {
     void hello ();
 }

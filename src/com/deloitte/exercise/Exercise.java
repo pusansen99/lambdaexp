@@ -20,13 +20,14 @@ public class Exercise {
                 return o1.getLastName().compareTo(o2.getFirstName());
             }
         });
+        System.out.println("Sorted\n");
         
         // TODO: 1/12/2021 #2 Create a method to print the all the elements present in the list.
         System.out.println("#2\n");
         printAll(people);
 
         // TODO: 1/12/2021 #3 Create a method to print the all the people whose last name starts with 'C'.
-        System.out.println("#3\n");
+        System.out.println("\n#3\n");
         printLastNamewithC(people);
 
     }
